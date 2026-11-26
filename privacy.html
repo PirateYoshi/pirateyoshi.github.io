@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy policy · Home Calendar</title>
+  <meta name="description" content="Privacy policy for Home Calendar, a private household app.">
+  <link rel="stylesheet" href="assets/simple.css">
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="privacy.html" aria-current="page">Privacy</a>
+      <a href="terms.html">Terms</a>
+    </nav>
+    <h1>Privacy policy</h1>
+    <p>Home Calendar</p>
+  </header>
+
+  <main>
+    <p class="updated">Last updated: 26 November 2026</p>
+
+    <p>Home Calendar is a small private app that shows one household its own
+      calendar and chores. This page explains what Google data it uses, where
+      that data goes and how to remove it.</p>
+
+    <h2>What data it reads</h2>
+    <ul>
+      <li><strong>Google Tasks, read-only.</strong> The app asks for one
+        Google permission only: the Google Tasks read-only scope,
+        <code>https://www.googleapis.com/auth/tasks.readonly</code>. It reads
+        the task lists and tasks of the Google accounts that signed in, to show
+        them as chores. It cannot create, change or delete tasks.</li>
+      <li><strong>Google Calendar, by private iCal address.</strong> The app
+        reads the household's own private Google Calendar iCal addresses,
+        which the household enters itself. These are read-only feeds. The app
+        asks for no Google Calendar permission and cannot change any
+        calendar.</li>
+    </ul>
+    <p>The app does not read email, contacts, files, location or any other
+      Google data.</p>
+
+    <h2>Where the data goes</h2>
+    <p>The data is fetched straight from Google to the household's own
+      device. It is cached only in the app's private storage on that device,
+      so it can be shown between refreshes.</p>
+    <p>Nothing is sent to anyone else. There is no server of ours, no
+      analytics, no advertising, no tracking, and the data is never sold,
+      shared or transferred to anyone.</p>
+    <p>The only hosts the app contacts are:</p>
+    <ul>
+      <li><code>calendar.google.com</code> (the private iCal feeds)</li>
+      <li><code>tasks.googleapis.com</code> (Google Tasks, read-only)</li>
+      <li><code>oauth2.googleapis.com</code> (refreshing the sign-in token)</li>
+    </ul>
+    <p>Signing in happens once, on Google's own sign-in page. The resulting
+      token stays with the household and is not sent anywhere else.</p>
+
+    <h2>How long it is kept</h2>
+    <p>Cached data is kept only until it is replaced by the next refresh or
+      wiped. Sign-in tokens are kept only until access is revoked or the
+      tokens are wiped.</p>
+
+    <h2>How to remove access and data</h2>
+    <ul>
+      <li>Revoke the app's access to your Google account at any time under
+        <strong>Google Account › Security › Third-party access</strong>
+        (sometimes shown as "Your connections to third-party apps &amp;
+        services").</li>
+      <li>The app's set-up tool has a wipe command that removes the stored
+        tokens and calendar addresses.</li>
+      <li>Uninstalling the app or clearing its data also removes everything
+        it stored.</li>
+    </ul>
+
+    <h2>Google API Services User Data Policy</h2>
+    <p>Home Calendar's use and transfer of information received from Google
+      APIs adheres to the Google API Services User Data Policy, including the
+      Limited Use requirements. Google user data is used only to show the
+      household its own calendar and chores. It is not used for advertising,
+      not transferred to others, not used to train any AI or machine-learning
+      model, and not read by any person other than the household itself.</p>
+
+    <h2>Children</h2>
+    <p>The app is used only by the household that runs it and collects
+      nothing from anyone else.</p>
+
+    <h2>Changes</h2>
+    <p>If this policy changes, this page will be updated and the date at the
+      top will change.</p>
+
+    <h2>Contact</h2>
+    <p>Questions: open an issue in this site’s GitHub repository.</p>
+  </main>
+
+  <footer>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+    </nav>
+    <p>Questions: open an issue in this site’s GitHub repository.</p>
+    <p>Styled with Simple.css (MIT licence, see <a href="assets/LICENSE-simple.css.txt">licence</a>).</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,25 @@
+/* Small overrides on top of Simple.css (MIT, see LICENSE-simple.css.txt).
+   Always use the dark palette, whatever the visitor's system theme. */
+:root {
+  color-scheme: dark;
+  --bg: #16181d;
+  --accent-bg: #20232a;
+  --text: #e4e4e4;
+  --text-light: #a8a8a8;
+  --border: #3a3f4b;
+  --accent: #ffb300;
+  --accent-hover: #ffe099;
+  --accent-text: #16181d;
+  --code: #f48fb1;
+  --preformatted: #ccc;
+  --disabled: #111;
+}
+
+body > footer nav a {
+  margin: 0 0.6rem;
+}
+
+.updated {
+  color: var(--text-light);
+  font-size: 0.95rem;
+}
